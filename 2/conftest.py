@@ -18,6 +18,7 @@ def selector_input_password():
 def selector_button():
     return "button"
 
+
 @pytest.fixture()
 def selector_error():
     return """//*[@id="app"]/main/div/div/div[2]/h2"""
